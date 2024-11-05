@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const url =
-  'http://abb32d8206946408899b8ec9f24681f7-791306488.us-east-1.elb.amazonaws.com:5000/posts';
+  'a37d8477c6627430c954da950b5426a4-1796158364.us-east-1.elb.amazonaws.com:5000/posts';
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost);
